@@ -101,7 +101,7 @@ export default function App() {
                 alt="" />
             </div>
             <div data-aos="fade-up"
-              data-aos-duration="500" className='w-full md:w-4/6'>
+              data-aos-duration="500" className='w-full md:w-4/6 py-10 md:py-1'>
               <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                 Workflows automation
               </h1>
@@ -148,7 +148,7 @@ export default function App() {
             </div>
             <div data-aos="fade-up"
               data-aos-offset="500"
-              data-aos-duration="500" className='w-full md:w-2/5'>
+              data-aos-duration="500" className='w-full md:w-2/5 py-10 md:py-1'>
               <img src="https://img.freepik.com/free-vector/organic-flat-customer-support-illustration_23-2148899134.jpg?size=626&ext=jpg&ga=GA1.2.617832925.1708503188&semt=ais" alt="" />
             </div>
           </div>
@@ -167,7 +167,7 @@ export default function App() {
             </div>
             <div data-aos="fade-up"
               data-aos-offset="500"
-              data-aos-duration="500" className='w-full md:w-4/6'>
+              data-aos-duration="500" className='w-full md:w-4/6 py-10 md:py-1'>
               <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                 Training
               </h1>
@@ -209,7 +209,7 @@ export default function App() {
               <GetStartedButton/>
             </div>
             <div data-aos="fade-up"
-              data-aos-duration="500" className='w-full md:w-2/5'>
+              data-aos-duration="500" className='w-full md:w-2/5 py-10 md:py-1'>
               <img src="https://img.freepik.com/free-photo/side-view-businesswoman-showing-analytical-charts-her-male-coworker_1098-20620.jpg?size=626&ext=jpg&ga=GA1.1.617832925.1708503188&semt=sph" alt="" />
             </div>
           </div>
