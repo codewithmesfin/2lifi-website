@@ -31,6 +31,10 @@ const links = [
 export default function PublicNavbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const {pathname}=useRouter()
+  const isActiveTab=(arg:string)=>{
+if(arg=="/") return pathname==arg;
+else return pathname.includes(arg)
+  }
 
 
   // #967ad6
@@ -63,7 +67,7 @@ export default function PublicNavbar() {
                 {
                   links.map((item, i) => <Link key={i} href={item.href}
                  
-                    className={` text-sm ${pathname.includes(item.href)?"text-white font-semibold":"text-gray-200"} font-normal leading-6`}>
+                    className={` text-sm ${isActiveTab(item.href)  ?"text-white font-semibold":"text-gray-200"} font-normal leading-6`}>
                     {item.title}
                   </Link>)
                 }
