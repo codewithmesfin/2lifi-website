@@ -63,7 +63,7 @@ export default function PublicNavbar() {
                 {
                   links.map((item, i) => <Link key={i} href={item.href}
                  
-                    className={` text-sm ${pathname==item.href?"text-white font-semibold":"text-gray-200"} font-normal leading-6`}>
+                    className={` text-sm ${pathname.includes(item.href)?"text-white font-semibold":"text-gray-200"} font-normal leading-6`}>
                     {item.title}
                   </Link>)
                 }
