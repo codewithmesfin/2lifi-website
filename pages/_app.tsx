@@ -8,14 +8,16 @@ import { AuthProvider } from "@/context/authContext";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import GotopButton from "@/components/gotopButton";
 
 export default function MyApp({ Component, pageProps }: any) {
-  useEffect(()=>{AOS.init();},[])
+  useEffect(() => { AOS.init(); }, [])
   return (
     <AuthProvider>
       <Layout>
         <Component {...pageProps} />
         <ToastContainer />
+        <GotopButton/>
       </Layout>
     </AuthProvider>
   )

@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import GetStartedButton from '@/components/getStartedButton'
-import Link from 'next/link'
-
 import React from 'react'
 
 export default function Selling() {
