@@ -50,15 +50,17 @@ export default function Buying() {
                             data-aos-duration="500"
                             className='w-full md:w-1/2 py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
-                                2lifi Order
+                                Spend Time Procuring Items, Not Software
                             </h1>
                             <p className='text-[#676c72] pt-4 py-2'>
-                                In the realm of business operations, orders serve as the cornerstone
-                                of transactions, representing the exchange of goods and services between
-                                businesses and their customers or suppliers. At 2lifi, we recognize the
-                                pivotal role that orders play in driving the seamless flow of commerce,
-                                which is why we offer robust solutions designed to streamline order
-                                management processes, enhance accuracy, and improve overall efficiency.
+                                As an all-in-one ERP solution, ERPNext sports most of the features
+                                needed to run any kind of organization. Focus on procuring items in
+                                your warehouses and let ERPNext safely record all your data.
+                                There are features for managing quotations, suppliers, and purchase
+                                orders. Be it sales, purchase, or people management, {"we've"} got it covered. <br />
+                                Features like auto-reorder and supplier quotation help you make
+                                data-driven decisions and procure effectively. Automatically
+                                apply taxes to orders, rate suppliers and manage batched inventory.
                             </p>
                             <GetStartedButton />
                         </div>
@@ -75,21 +77,20 @@ export default function Buying() {
                             data-aos-duration="500"
                             className='w-full md:w-1/2 py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
-                                Sales Order
+                                Request For Quotation
                             </h1>
                             <p className='text-[#676c72] pt-4 py-2'>
-                                A Sales Order is a confirmation of an order from your customer.
-                                With {"2lifi's"} Sales Orders module, businesses gain access to a
-                                powerful platform that facilitates the entire sales order
-                                lifecycle—from creation and modification to fulfillment and invoicing.
-                                <Link href="/products/selling" className='text-blue-600 px-1'>Learn more</Link>
+                                Get the best price before buying. Request quotations from multiple
+                                suppliers for the items you need to procure. Fetch these items
+                                from other documents automatically, and send emails to the supplier
+                                right from the system.
                             </p>
                             <GetStartedButton />
                         </div>
                         <div
 
                             className='w-full shadow rounded md:w-1/2 '>
-                            <img src="https://docs.erpnext.com/files/so-packing-list.png" alt=""
+                            <img src="https://erpnext.com/files/proc-rfq.png" alt=""
                                 className='object-cover rounded h-full w-full'
                             />
                         </div>
@@ -102,29 +103,24 @@ export default function Buying() {
                     <div className="md:flex items-center justify-center md:space-x-10">
                         <div
 
-                            className='w-full shadow rounded md:w-1/2'>
-                            <img src="https://docs.erpnext.com/files/purchase-order.png" alt=""
+                            className='w-full shadow rounded md:w-3/5'>
+                            <img src="https://erpnext.com/files/leather-portal.png" alt=""
                                 className='object-cover rounded h-full w-full'
                             />
                         </div>
                         <div
                             data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-1/2 py-10 md:py-1'>
+                            className='w-full md:w-2/5 py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
-                                Purchase Order
+                                Supplier Portal
                             </h1>
                             <p className='text-[#676c72] pt-4 py-2'>
-                                A Purchase Order is a binding contract with your Supplier that you
-                                promise to buy a set of items under given conditions.
-                                At 2lifi, we understand the critical role that purchase orders play
-                                in effective supply chain management, which is why we offer comprehensive
-                                solutions designed to streamline the procurement process and
-                                enhance visibility across the entire supply chain.
-                                With {"2lifi's"} Purchase Orders module, businesses can easily create,
-                                track, and manage purchase orders, automate approval workflows, and collaborate
-                                seamlessly with suppliers, thereby improving procurement efficiency,
-                                reducing lead times, and driving bottom-line results.
+                                Use the supplier portal to help suppliers manage themselves.
+                                The suppliers can submit requests for quotations and automatic
+                                supplier quotations, or access ongoing purchase orders and receipts.
+                                Suppliers can also raise purchase invoices for fulfilled orders.
+                                You can then verify these invoices for final approval.
                             </p>
                             <GetStartedButton />
                         </div>
@@ -139,29 +135,573 @@ export default function Buying() {
                         <div
                             data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-1/2 py-10 md:py-1'>
+                            className='w-full md:w-2/5 py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
-                                Effortless Order Management
+                                Auto-Apply Taxes And Charges
                             </h1>
                             <p className='text-[#676c72] pt-4 py-2'>
-                                The Order module in 2lifi offers unparalleled simplicity.
-                                With its intuitive interface, users can easily create, track,
-                                and manage orders in real-time. Customizable workflows and
-                                automatic notifications streamline processes, empowering
-                                businesses to optimize operations and enhance customer satisfaction
-                                effortlessly.
+                                Purchase tax templates can automatically fetch tax rates into transactions.
+                                You can even set specific tax rules and even tax categories to further
+                                automate the process. The set tax rates can also be edited both in
+                                the templates and in individual transactions.
                             </p>
                             <GetStartedButton />
                         </div>
                         <div
 
-                            className='w-full rounded md:w-1/2 py-10 md:py-1 '>
+                            className='w-full shadow rounded md:w-3/5 py-10 md:py-1 '>
                             <img
-                                src="https://img.freepik.com/free-psd/flat-design-transport-delivery-template_23-2149558451.jpg?t=st=1708681028~exp=1708684628~hmac=f544f56ea6afc04ceb8c3f3d559d7960d9b0662a8908776510734004966f92e4&w=1800"
+                                src="https://erpnext.com/files/proc-tax.png"
                                 alt=""
-                                className='object-cover rounded h-full w-full max-h-[300px]'
+                                className='object-cover rounded h-full w-full'
                             />
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div className='mx-auto w-[90%] md:max-w-[90%] py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5'>
+                            <img src="https://erpnext.com/files/proc-po.png" alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Purchase Order
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                Record purchase orders to keep track of all the items you need to procure.
+                                The pricing, taxes, discounts, addresses, and supplier details only
+                                need to be stored once and will be fetched automatically.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section className='bg-gray-100'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Purchase Receipt And Invoice
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                On receiving items from purchase orders, record
+                                purchase receipts and/or purchase invoices to
+                                update the stock and accounting details.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5 py-10 md:py-1 '>
+                            <img
+                                src="https://erpnext.com/files/proc-pi.png"
+                                alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <div className='mx-auto w-[90%] md:max-w-[90%] py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5'>
+                            <img src="https://erpnext.com/files/stock-entry.png" alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Stock Entry
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                Manage a multitude of warehouse transactions like receiving,
+                                transferring, repacking, and discarding items and view reports
+                                for them instantly. Procure efficiently by manipulating stock in
+                                warehouses to meet your needs and reflect accurate information.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section className='bg-gray-100'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Control And Fetch Pricing
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                Maintain multiple price lists, based on the transaction or territory.
+                                Set a unit threshold at which the price will be applied, and set how
+                                many units in a packing size it will be applied to. You can also
+                                set different pricing based on the lead time for products.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5 py-10 md:py-1 '>
+                            <img
+                                src="https://erpnext.com/files/fmcg-item-price.png"
+                                alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div className='mx-auto w-[90%] md:max-w-[90%] py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5'>
+                            <img src="https://erpnext.com/files/stock-ageing.png" alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Stock Aging Report
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                See the age of all your inventory in one place.
+                                This is especially important when dealing with perishable items.
+                                Use this report to determine the age of inventory and sell off
+                                specific batches or serial numbers using stock picking.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section className='bg-gray-100'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Auto-Reorder
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                Stocking warehouses is risky when pricing is volatile.
+                                With 2lifi, never worry about the stock dipping too low.
+                                Set a threshold and our wholesale distribution software will
+                                automatically generate material requests to replenish stock.
+                                The stock and purchase managers will be notified promptly, so
+                                {"there's "} no need to stock up on items and spend additional money.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5 py-10 md:py-1 '>
+                            <img
+                                src="https://erpnext.com/files/inv-reorder.png"
+                                alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div className='mx-auto w-[90%] md:max-w-[90%] py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5'>
+                            <img src="https://erpnext.com/files/supplier-scorecard.png" alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Supplier Scorecard
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                Learn which suppliers deliver quality products on time, and
+                                rate suppliers based on various criteria and scoring systems.
+                                This will give you insights to choose the best supplier for
+                                all your procurement needs.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section className='bg-gray-100'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Quality Inspection
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                Implement quality inspections to ensure that the correct
+                                stock leaves or enters warehouses. Link transactions to the
+                                quality inspection, select a sample size, enter the readings,
+                                and decide whether to accept or reject the items
+                                during your procurement cycle.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5 py-10 md:py-1 '>
+                            <img
+                                src="https://erpnext.com/files/fmcg-quality.png"
+                                alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div className='mx-auto w-[90%] md:max-w-[90%] py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5'>
+                            <img src="https://erpnext.com/files/whole-qsb.png" alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Quick Stock Balance
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                Instantly get the stock balance in any warehouse for a
+                                specific date. Make data-driven decisions for fulfilling
+                                orders by knowing which warehouse has how much stock and
+                                what {"it's"} worth, all just a few clicks away.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section className='bg-gray-100'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Item Variants
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                Create one master template, and generate multiple item
+                                variants based on different sizes, colors, or shapes.
+                                {"There's "} no restriction here — you can define your own
+                                item attributes to create any kind of variant you want,
+                                (e.g. based on colors, meters, shapes or manufacturer).
+                            </p>
+                            <GetStartedButton />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5 py-10 md:py-1 '>
+                            <img
+                                src="https://erpnext.com/files/fmcg-variants.png"
+                                alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div className='mx-auto w-[90%] md:max-w-[90%] py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5'>
+                            <img src="https://erpnext.com/files/barcode-scan.jpg" alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Barcode Scanning
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                {"There's"} no need for manual entries. Simply connect a barcode
+                                scanner to your computer and quickly record items in transactions.
+                                {"What's"} more, you can do this right from your smartphone!
+                            </p>
+                            <GetStartedButton />
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section className='bg-gray-100'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Unlimited Warehouses
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                Create unlimited warehouses to keep track of not just actual
+                                warehouses but also rooms, rows, shelves, and bins. Get a holistic
+                                view of all your warehouses in a tree chart. You can configure
+                                separate accounts for each warehouse to analyze the expenses,
+                                stock movements, profit and loss, and to check on overall profitability.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5 py-10 md:py-1 '>
+                            <img
+                                src="https://erpnext.com/files/warehouses.png"
+                                alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <div className='mx-auto w-[90%] md:max-w-[90%] py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5'>
+                            <img src="https://erpnext.com/files/fmcg-landed.png" alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Landed Cost Voucher
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                Items arrived, but want to add shipping charges or customs duties?
+                                Update landed costs to include shipping charges, customs duties,
+                                or any other additional charges.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section className='bg-gray-100'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Save Your Time By Setting Defaults
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                {"Don't "} waste time selecting or entering prices and other
+                                standard details on orders every time. With our procurement
+                                system, you can preset the default source and target warehouses,
+                                pricing methods, and accounts. The defaults can be set separately
+                                for sales and purchase, and they can, of course, be changed for
+                                individual orders.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5 py-10 md:py-1 '>
+                            <img
+                                src="https://erpnext.com/files/fmcg-defaults.png"
+                                alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div className='mx-auto w-[90%] md:max-w-[90%] py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-1/2'>
+                            <img src="https://erpnext.com/files/inv-batch.png" alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-1/2 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Batched Inventory
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                Move or split batches between different warehouses. If you produce
+                                your items in batches, the Batch master will come in handy to
+                                track manufacturing dates, expiration dates, and more details.
+                                You can even scan item barcodes via your device camera for easy
+                                search through all your stock.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section className='bg-gray-100'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-2/5 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Multiple Units Of Measure
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                Whether you sell in kilograms or kilocoulomb, cups or carats,
+                                we got you covered. {"What’s "} more, you can create your own measurements
+                                and set up conversion factors to measure your inventory just the
+                                way you want it. Once you set defaults, the unit of measure for an
+                                item will be automatically fetched into orders and invoices.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-3/5 py-10 md:py-1 '>
+                            <img
+                                src="https://erpnext.com/files/fmcg-uom.png"
+                                alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+                <div className='mx-auto w-[90%] md:max-w-[90%] py-10'>
+                    <div className="md:flex items-center justify-center md:space-x-10">
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full shadow rounded md:w-1/2'>
+                            <img src="https://erpnext.com/files/fmcg-returns.png" alt=""
+                                className='object-cover rounded h-full w-full'
+                            />
+                        </div>
+                        <div
+                            data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-1/2 py-10 md:py-1'>
+                            <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
+                                Manage Returns Easily
+                            </h1>
+                            <p className='text-[#676c72] pt-4 py-2'>
+                                Be it for sales or purchases, returns {"aren't"} pleasant,
+                                but they happen all the time in the real world. In 2lifi, you can
+                                record returns with just two clicks. The stocks will be updated
+                                automatically to show the returns.
+                            </p>
+                            <GetStartedButton />
+                        </div>
+
                     </div>
                 </div>
             </section>
