@@ -17,11 +17,11 @@ export default function Accounting() {
                                 Finance and Accounting
                             </h1>
 
-                            <div className="pt-4">
+                            <div className="md:pt-4">
                                 <GetStartedButton />
                             </div>
                         </div>
-                        <div className='w-full md:w-1/2'>
+                        <div className='w-full md:w-1/2 py-10 md:py-1'>
                             <img
                                 src="https://erpnext.com/files/accounts-dashboard.png"
                                 className='rounded-xl'
