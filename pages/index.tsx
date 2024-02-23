@@ -40,7 +40,7 @@ export default function App() {
                 </button>
               </div>
             </div>
-            <div className='w-full md:w-[30%] flex justify-center'>
+            <div className='hidden md:inline w-full md:w-[30%] flex justify-center'>
               <Image
                 data-aos="fade-up"
                 data-aos-offset="500"
