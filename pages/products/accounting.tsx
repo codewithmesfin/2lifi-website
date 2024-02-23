@@ -7,13 +7,13 @@ export default function Accounting() {
     return (
         <div>
             <section className='bg-blue-600'>
-                <div className='mx-auto w-[97%] md:max-w-[90%]  pt-32 pb-8 md:pb-16'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  pt-32 pb-8 md:pb-16'>
                     <div className="md:flex md:items-center md:justify-between md:space-x-10">
                         <div className='w-full md:w-1/2'>
-                            <h1 className="text-gray-200 text-white text-3xl md:text-5xl">
+                            <h1 className="text-gray-200 text-white text-4xl md:text-5xl">
                                 Automate your
                             </h1>
-                            <h1 className="my-3 font-extrabold text-gray-200 text-white text-3xl md:text-7xl">
+                            <h1 className="my-3 font-extrabold text-gray-200 text-white text-4xl md:text-7xl">
                                 Finance and Accounting
                             </h1>
 
@@ -32,7 +32,7 @@ export default function Accounting() {
             </section>
 
             <section >
-                <div className='mx-auto w-[97%] md:max-w-[90%]  py-10'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
                     <div className="md:flex items-center justify-center md:space-x-10">
                         <div
 
@@ -62,7 +62,7 @@ export default function Accounting() {
             </section>
 
             <section>
-                <div className='mx-auto w-[97%] md:max-w-[90%]  py-10'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
                     <div className="md:flex items-center justify-center md:space-x-10">
                         <div data-aos="fade-up"
                             data-aos-duration="500"
@@ -88,7 +88,7 @@ export default function Accounting() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-2/5'>
+                            className='w-full md:w-2/5  py-10 md:py-1'>
                             <img src="https://erpnext.com/files/accounts-dashboard-1335c7cb.png" alt=""
                                 className='object-cover rounded-xl h-full w-full'
                             />
@@ -98,7 +98,7 @@ export default function Accounting() {
             </section>
 
             <section className='h-full bg-blue-100 py-10'>
-                <div className='mx-auto w-[97%] md:max-w-[90%]  py-10'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
                     <div className="md:flex items-center justify-center md:space-x-10">
                         <div
 
@@ -111,7 +111,7 @@ export default function Accounting() {
                         <div
                             data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-2/5'>
+                            className='w-full md:w-2/5  py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 Ultimate Accounting Flexibility
                             </h1>
@@ -131,7 +131,7 @@ export default function Accounting() {
             </section>
 
             <section className='h-full py-10'>
-                <div className='mx-auto w-[97%] md:max-w-[90%]  py-10'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
                     <div className="md:flex items-center justify-center md:space-x-10">
 
 
@@ -153,7 +153,7 @@ export default function Accounting() {
 
                         <div
 
-                            className='w-full h-full md:w-3/5'>
+                            className='w-full h-full md:w-3/5  py-10 md:py-1'>
                             <img src="https://erpnext.com/files/chart_of_accounts-group_ledger.png"
                                 alt=""
                                 className='object-cover rounded-xl h-full w-full'
@@ -165,7 +165,7 @@ export default function Accounting() {
             </section>
 
             <section className='h-full bg-blue-100 py-10'>
-                <div className='mx-auto w-[97%] md:max-w-[90%]  py-10'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
                     <div className="md:flex items-center justify-center md:space-x-10">
                         <div
 
@@ -178,7 +178,7 @@ export default function Accounting() {
                         <div
                             data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-2/5'>
+                            className='w-full md:w-2/5  py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 Accounting — The way you want
                             </h1>
@@ -195,7 +195,7 @@ export default function Accounting() {
             </section>
 
             <section className='bg-gray-800'>
-                <div className='mx-auto w-[97%] md:max-w-[90%]  py-10'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
                     <div className="md:flex justify-center md:space-x-10">
 
                         <div
