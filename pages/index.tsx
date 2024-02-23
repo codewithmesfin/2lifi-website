@@ -26,7 +26,7 @@ export default function App() {
               </p>
               <p className="text-gray-200 py-2">
                 2lifi started by customizing the renowned open source
-                projects <span className="font-extrabold">Frappe & ERPNext</span> 
+                projects <span className="font-extrabold">Frappe & ERPNext</span>
                 and adding our own ingredients to make our products will act as a friendly
                 solutions to the emerging businesses of any size.
               </p>
@@ -43,7 +43,7 @@ export default function App() {
             <div className='hidden md:inline w-full md:w-[30%] flex justify-center'>
               <Image
                 data-aos="fade-up"
-                data-aos-offset="500"
+
                 data-aos-duration="500"
                 src="/p1.png" alt='logo' width={300} height={300} />
             </div>
@@ -79,7 +79,7 @@ export default function App() {
                 operations whether {"you're"} in the office, remote, or on
                 the move.
               </p>
-             <GetStartedButton/>
+              <GetStartedButton />
             </div>
             <div
               data-aos="fade-up"
@@ -95,7 +95,7 @@ export default function App() {
         <div className='mx-auto max-w-[85%] py-16'>
           <div className="md:flex md:items-center md:space-x-10">
             <div data-aos="fade-up"
-              data-aos-offset="500"
+
               data-aos-duration="500" className='w-full md:w-2/6'>
               <img src="https://img.freepik.com/free-vector/data-extraction-concept-illustration_114360-4906.jpg?size=626&ext=jpg&ga=GA1.1.617832925.1708503188&semt=ais"
                 alt="" />
@@ -118,7 +118,7 @@ export default function App() {
                 solutions for various business needs, enabling you to quickly
                 adapt and scale as your requirements evolve.
               </p>
-              <GetStartedButton/>
+              <GetStartedButton />
             </div>
 
           </div>
@@ -129,7 +129,7 @@ export default function App() {
       <section className='bg-blue-100'>
         <div className='mx-auto max-w-[85%] py-16'>
           <div data-aos="fade-up"
-            data-aos-offset="500"
+
             data-aos-duration="500" className="md:flex md:items-center md:space-x-10">
             <div className='w-full md:w-3/5'>
               <h1 className='text-2xl md:text-4xl font-normal text-gray-900'>
@@ -144,10 +144,10 @@ export default function App() {
                 benefits of our Enterprise system at any time of the day.
                 We assure <span className="font-bold">100%</span> the availabily of your system.
               </p>
-              <GetStartedButton/>
+              <GetStartedButton />
             </div>
             <div data-aos="fade-up"
-              data-aos-offset="500"
+
               data-aos-duration="500" className='w-full md:w-2/5 py-10 md:py-1'>
               <img src="https://img.freepik.com/free-vector/organic-flat-customer-support-illustration_23-2148899134.jpg?size=626&ext=jpg&ga=GA1.2.617832925.1708503188&semt=ais" alt="" />
             </div>
@@ -160,13 +160,13 @@ export default function App() {
         <div className='mx-auto max-w-[85%] py-16'>
           <div className="md:flex md:items-center md:space-x-10">
             <div data-aos="fade-up"
-              data-aos-offset="500"
+
               data-aos-duration="500" className='w-full md:w-2/6'>
               <img src="https://img.freepik.com/free-vector/coach-speaking-before-audience-mentor-presenting-charts-reports-employees-meeting-business-training-seminar-conference-vector-illustration-presentation-lecture-education_74855-8294.jpg?size=626&ext=jpg&ga=GA1.1.617832925.1708503188&semt=sph"
                 alt="" />
             </div>
             <div data-aos="fade-up"
-              data-aos-offset="500"
+
               data-aos-duration="500" className='w-full md:w-4/6 py-10 md:py-1'>
               <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                 Training
@@ -181,7 +181,7 @@ export default function App() {
                 ERP solution. Empower your team with the knowledge and skills
                 necessary for seamless integration and optimal utilization of our system.
               </p>
-              <GetStartedButton/>
+              <GetStartedButton />
             </div>
 
           </div>
@@ -206,7 +206,7 @@ export default function App() {
                 Our expert engineers are dedicated to constant innovation, working
                 diligently to enhance and grow your business.
               </p>
-              <GetStartedButton/>
+              <GetStartedButton />
             </div>
             <div data-aos="fade-up"
               data-aos-duration="500" className='w-full md:w-2/5 py-10 md:py-1'>
