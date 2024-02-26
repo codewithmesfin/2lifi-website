@@ -7,7 +7,7 @@ export default function Asset() {
     return (
         <div>
             <section className='bg-blue-600'>
-                <div className='mx-auto w-[97%] md:max-w-[90%]  pt-32 pb-8 md:pb-16'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  pt-32 pb-8 md:pb-16'>
                     <div className="md:flex md:items-center md:justify-between md:space-x-10">
                         <div className='w-full md:w-1/2'>
 
@@ -122,7 +122,7 @@ export default function Asset() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-3/5'>
+                            className='w-full md:w-3/5 py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 Purchasing Assets
                             </h1>
@@ -184,7 +184,7 @@ export default function Asset() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-2/5'>
+                            className='w-full md:w-2/5 py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 Automating Asset Depreciation
                             </h1>
@@ -246,7 +246,7 @@ export default function Asset() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-2/5'>
+                            className='w-full md:w-2/5 py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 Asset Value Adjustment
                             </h1>
@@ -309,7 +309,7 @@ export default function Asset() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-2/5'>
+                            className='w-full md:w-2/5 py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 On-The-Fly Customizations
                             </h1>
@@ -326,7 +326,6 @@ export default function Asset() {
                     </div>
                 </div>
             </section>
-
 
 
         </div>

@@ -9,7 +9,7 @@ export default function Project() {
     return (
         <div>
             <section className='bg-blue-600'>
-                <div className='mx-auto w-[97%] md:max-w-[90%]  pt-32 pb-8 md:pb-16'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  pt-32 pb-8 md:pb-16'>
                     <div className="md:flex md:items-center md:justify-between md:space-x-10">
                         <div className='w-full md:w-1/2'>
                             <h1 className="text-gray-200 text-white text-3xl md:text-5xl">
@@ -79,7 +79,7 @@ export default function Project() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-1/2'>
+                            className='w-full md:w-1/2  py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 Agile
                             </h1>
@@ -143,7 +143,7 @@ export default function Project() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-2/5'>
+                            className='w-full md:w-2/5  py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 Document Storage
                             </h1>
@@ -205,7 +205,7 @@ export default function Project() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-2/5'>
+                            className='w-full md:w-2/5  py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 Profitability Analysis
                             </h1>
@@ -266,7 +266,7 @@ export default function Project() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-1/2'>
+                            className='w-full md:w-1/2  py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 Customer Access
                             </h1>
@@ -285,22 +285,14 @@ export default function Project() {
                     </div>
                 </div>
             </section>
-
-         
          
             <section className='bg-white'>
                 <div className='mx-auto w-[90%] md:max-w-[90%]  py-10'>
                     <div className="md:flex items-center justify-center md:space-x-10">
+                      
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-3/5 shadow rounded py-10 md:py-1'>
-                            <img src="https://erpnext.com/files/customize-project.png" alt=""
-                                className='object-cover rounded-xl h-full w-full'
-                            />
-                        </div>
-                        <div data-aos="fade-up"
-                            data-aos-duration="500"
-                            className='w-full md:w-2/5'>
+                            className='w-full md:w-2/5 '>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 On-The-Fly-Customizations
                             </h1>
@@ -313,11 +305,16 @@ export default function Project() {
                             </p>
                             <GetStartedButton />
                         </div>
-
+                        <div data-aos="fade-up"
+                            data-aos-duration="500"
+                            className='w-full md:w-3/5 shadow rounded py-10 md:py-1'>
+                            <img src="https://erpnext.com/files/customize-project.png" alt=""
+                                className='object-cover rounded-xl h-full w-full'
+                            />
+                        </div>
                     </div>
                 </div>
             </section>
-
 
 
         </div>

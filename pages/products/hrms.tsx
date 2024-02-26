@@ -11,7 +11,7 @@ export default function HRMS() {
     return (
         <div>
             <section className='bg-blue-600'>
-                <div className='mx-auto w-[97%] md:max-w-[90%]  pt-32 pb-8 md:pb-16'>
+                <div className='mx-auto w-[90%] md:max-w-[90%]  pt-32 pb-8 md:pb-16'>
                     <div className="md:flex md:items-center md:justify-between md:space-x-10">
                         <div className='w-full md:w-2/5'>
 
@@ -21,7 +21,7 @@ export default function HRMS() {
                             <h1 className="text-gray-200 text-white text-xl md:text-2xl">
                                 Frappe HR is a 100% open source, modern, user-friendly solution to drive excellence within your team. Simplify your HR and Payroll operations with a product crafted as per your needs.
                             </h1>
-                            <div className="pt-4">
+                            <div className="pb-10 md:pb-1 mt-2 md:pt-4">
                                 <GetStartedButton />
                             </div>
                         </div>
@@ -99,7 +99,7 @@ export default function HRMS() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-3/5'>
+                            className='w-full md:w-3/5 py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 Employee
                             </h1>
@@ -192,7 +192,7 @@ export default function HRMS() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-3/5'>
+                            className='w-full md:w-3/5 py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 🌟 Simplify Leave Management with 2lifi 🌟
                             </h1>
@@ -259,7 +259,7 @@ export default function HRMS() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-1/2'>
+                            className='w-full md:w-1/2 py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 The Lifecycle & Salary Journey 📈
                             </h1>
@@ -299,7 +299,7 @@ export default function HRMS() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-3/5'>
+                            className='w-full md:w-3/5 py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 Unlock the power of efficient payroll management
                             </h1>
@@ -329,7 +329,7 @@ export default function HRMS() {
                     <h1 className='text-2xl text-center md:text-6xl font-bold py-3 text-blue-600'>
                         Why choose 2lifi HR?
                     </h1>
-                    <div className='grid grid-cols-3 gap-4 md:gap-10 py-10'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-10 py-10'>
                         {
                             hrmsFeatures.map((x: any, i: number) => <div key={i} className='py-3'
                             data-aos="fade-up"
