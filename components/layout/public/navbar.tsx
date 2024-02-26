@@ -12,6 +12,7 @@ import {
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import Search from '@/components/search'
 
 
 const links = [
@@ -76,7 +77,7 @@ else return pathname.includes(arg)
           </div>
           <div className='flex items-center space-x-10'>
             <div className='hidden md:flex'>
-              <Link href={"/dashboard"}
+             <Link href={"/dashboard"}
                 className="text-sm text-white font-normal leading-6">
                 2lifi Dashboard
               </Link>

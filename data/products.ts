@@ -117,7 +117,7 @@ const products: any = [
     title: "Website Builder Tools",
     description:
       "A Point of Sale system or POS system is an online mode to facilitate payments or transactions in different businesses like retail stores, restaurants, healthcare providers, salons and spas, gas stations, e-commerce businesses, entertainment, recreation, wellness centers, convenience stores, bars, and nightclubs.",
-    route: "/website",
+    route: "/builder",
   
     img: "https://img.freepik.com/free-vector/isometric-iso-certification-concept_23-2148688048.jpg?size=626&ext=jpg&uid=R19609540&ga=GA1.1.617832925.1708503188&semt=ais",
   },
