@@ -57,7 +57,7 @@ export default function Asset() {
                         </div>
                         <div data-aos="fade-up"
                             data-aos-duration="500"
-                            className='w-full md:w-3/5'>
+                            className='w-full md:w-3/5 py-10 md:py-1'>
                             <h1 className='text-2xl md:text-4xl font-normal text-blue-600'>
                                 Asset Lifecycle
                             </h1>
