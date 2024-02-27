@@ -47,7 +47,7 @@ export default function Industries() {
                                        <div className="w-full md:w-3/5 p-5">
                                             <h1 className='text-lg font-semibold'>{x.title} </h1>
                                             <p><span className='line-clamp-3 text-sm text-gray-600'> {x.description} </span>
-                                                <Link href={x.route}
+                                                <Link href={`/industries/${x.route}`}
                                                     className='text-sm text-blue-600'
                                                 >Read more</Link>
                                             </p>

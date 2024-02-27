@@ -11,7 +11,7 @@ const industries:any=[
         title: "Retail",
         description:
           "A Point of Sale system or POS system is an online mode to facilitate payments or transactions in different businesses like retail stores, restaurants, healthcare providers, salons and spas, gas stations, e-commerce businesses, entertainment, recreation, wellness centers, convenience stores, bars, and nightclubs.",
-        route: "/selling",
+        route: "/retail",
       
         img: "https://img.freepik.com/free-photo/beautiful-family-standing-cash-counter_171337-2410.jpg?size=626&ext=jpg&uid=R19609540&ga=GA1.1.617832925.1708503188&semt=sph",
       },
