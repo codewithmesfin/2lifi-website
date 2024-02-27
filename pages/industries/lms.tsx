@@ -536,7 +536,6 @@ export default function LMS() {
                             data-aos-duration="500"
                             className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-8 mb-5'
                         >
-
                             {
                                 [
                                     "Course Management",
