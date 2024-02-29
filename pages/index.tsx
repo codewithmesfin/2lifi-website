@@ -26,7 +26,7 @@ export default function App() {
               </p>
               <p className="text-gray-200 py-2">
                 2lifi started by customizing the renowned open source
-                projects <span className="font-extrabold">Frappe & ERPNext</span>
+                projects <span className="font-extrabold">Frappe & ERPNext </span>
                 and adding our own ingredients to make our products will act as a friendly
                 solutions to the emerging businesses of any size.
               </p>
